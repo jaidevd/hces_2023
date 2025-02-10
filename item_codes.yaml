@@ -1,0 +1,596 @@
+- section: 5.1
+  questionnaire: FDQ
+  desc: "Consumption of cereals during the last 30 days"
+  question: "What is the quantity and value of the cereals and cereals substitutes consumed by the household in the last 30 days?"
+  items:
+    rice-free: 061
+    wheat/atta-free: 062
+    coarse grains free: 070
+    rice PDS: 101
+    rice other sources: 102
+    chira: 103
+    muri: 105
+    other rice products: 106
+    wheat atta PDS: 107
+    wheat atta other sources: 108
+    maida: 110
+    suji rawa: 111
+    vermicelli sewai: 112
+    other wheat products: 114
+    coarse grains PDS: 001
+    coarse grains other sources: 002
+    other cereals products: 122
+    cereal sub-total: 129
+    cereal substitutes (tapiocal, etc): 139
+- section: 5.2
+  desc: "Consumption of pulses in the last 30 days"
+  questionnaire: FDQ
+  question: "What is the quantity and value of the pulses and pulse products consumed by the household in the last 30 days?"
+  items:
+    arhar, tur: 140
+    moong: 143
+    masur: 144
+    urd: 145
+    gram (split): 141
+    gram (whole): 142
+    peas, chickpeas: 146
+    other pulses (khesari, etc.): 148
+    besan, gram products: 150
+    pulses - PDS: 158
+    other pulse products (soya chunks, etc.): 152
+    pulses - free: 071
+    gram - free: 072
+    pulses & pulse products - sub-total: 159
+- section: 5.3
+  desc: "Consumption of sugar and salt in the last 30 days"
+  questionnaire: FDQ
+  question: "What is the quantity and value of the sugar and salt consumed by the household in the last 30 days?"
+  items:
+    salt - free: 073
+    sugar - free: 074
+    salt - PDS: 178
+    salt - other sources: 170
+    sugar - PDS: 171
+    sugar - other sources: 172
+    jaggery (gur): 173
+    candy, misri: 174
+    honey: 175
+    salt & sugar - sub-total: 179
+- section: 6.1
+  desc: "Consumption of milk and milk products in the last 7 days"
+  questionnaire: FDQ
+  question: "What is the quantity and value of the milk and milk products consumed by the household in the last 7 days?"
+  items:
+    milk - liquid (litre): 160
+    milk - condensed/ powder: 162
+    ghee: 164
+    curd, yogurt: 163
+    butter: 165
+    ice-cream: 166
+    paneer: 003
+    prepared sweets: 004
+    cheese (gm): 005
+    other milk products (lassi, butter milk, others): 092
+    milk & milk products - sub-total: 169
+- section: 6.2
+  desc: "Consumption of vegetables in the last 7 days"
+  question: "What is the quantity and value of the vegetables consumed by the household in the last 7 days?"
+  questionnaire: FDQ
+  items:
+    onion: 201
+    potato: 200
+    tomato: 202
+    palak/other leafy vegetables: 206
+    brinjal: 203
+    lady's finger: 208
+    green chillies: 207
+    cauliflower: 211
+    gourd, pumpkin: 213
+    cabbage: 212
+    parwal/patal, kundru: 210
+    beans, barbati: 215
+    peas: 214
+    carrot: 205
+    radish: 204
+    lemon (no.): 216
+    other vegetables: 217
+    vegetables sub-total: 219
+- section: 6.3
+  questionnaire: FDQ
+  desc: "Consumption of fresh fruits in the last 7 days"
+  question: "What is the quantity and value of the fresh fruits consumed by the household in the last 7 days?"
+  items:
+    banana (no.): 220
+    apple: 236
+    coconut (no.): 224
+    mango: 231
+    grapes: 237
+    green coconut (no.): 225
+    guava: 226
+    papaya: 230
+    orange, sweet lime(mausami) (no.): 228
+    watermelon: 222
+    kharbooza: 232
+    other fresh fruits (litchi, pears/nashpati, singara, jackfruit, berries, pineapple, others): 093
+    fruits (fresh) sub-total: 239
+- section: 6.4
+  questionnaire: FDQ
+  desc: "Consumption of dry fruits in the last 7 days"
+  question: "What is the quantity and value of the dry fruits consumed by the household in the last 7 days?"
+  items:
+    coconut - copra: 240
+    groundnut: 241
+    cashew nut: 243
+    dates: 242
+    other nuts (almond, pistachio, walnut, hazelnut, etc.): 245
+    raisin (kishmish), monacca, etc.: 246
+    other dry fruits (apricot, dry fig, anjeer, others): 094
+    fruits (dry) sub-total: 249
+- section: 6.5
+  questionnaire: FDQ
+  desc: "Consumption of egg, fish and meat in the last 7 days"
+  question: "What is the quantity and value of the egg, fish and meat consumed by the household in the last 7 days?"
+  items:
+    eggs (no.): 190
+    chicken: 195
+    fish, prawn: 191
+    goat meat/ mutton: 192
+    beef/ buffalo meat: 193
+    pork: 194
+    others -  birds, crab, oyster, etc.: 196
+    egg, fish & meat sub-total: 199
+- section: 6.6
+  questionnaire: FDQ
+  desc: "Consumption of edible oil in the last 7 days"
+  question: "What is the quantity and value of the edible oil consumed by the household in the last 7 days?"
+  items:
+    mustard oil: 181
+    refined oil [sunflower, soyabean, palm oil, vegetable oil, etc.]: 184
+    groundnut oil: 182
+    coconut oil: 183
+    edible oil - PDS: 188
+    edible oil others (vanaspati, margarine, others): 095
+    edible oil - free: 075
+    edible oil sub-total: 189
+- section: 6.7
+  questionnaire: FDQ
+  desc: "Consumption of spices in the last 7 days"
+  question: "What is the quantity and value of the spices consumed by the household in the last 7 days?"
+  items:
+    dry chillies (gm): 256
+    turmeric (gm): 254
+    cumin (jeera (gm)): 252
+    coriander (dhania (gm)): 253
+    garlic (gm): 251
+    ginger (gm): 250
+    curry powder (gm): 258
+    black pepper (gm): 255
+    tamarind (gm): 257
+    oilseeds (gm): 260
+    poppy seeds (gm): 263
+    other spices (gm): 261
+    spices sub-total: 269
+- section: 6.8
+  questionnaire: FDQ
+  desc: "Consumption of beverages in the last 7 days"
+  question: "What is the quantity and value of the beverages consumed by the household in the last 7 days?"
+  items:
+    tea cups (no.): 270
+    tea leaf (gm): 271
+    coffee cups (no.): 272
+    coffee powder (gm): 273
+    mineral water (litre): 274
+    soda drinks (litre): 011
+    other cold beverages bottled/canned (litre): 275
+    fruit juice and shake, sugarcane/ date-palm juice, etc.: 276
+    other beverages cocoa, drinking chocolate, health drinks, etc.: 278
+    beverages sub-total: 279
+- section: 7.1
+  questionnaire: FDQ
+  desc: "Consumption of served processed food in the last 7 days"
+  question: "What is the quantity and value of the served processed food purchased and/or consumed by the household in the last 7 days?"
+  items:
+    cooked meals purchased at subsidized rate (no.): 076
+    cooked meals purchased (no.): 280
+    cooked meals received free in workplace (no.): 281
+    cooked meals received as assistance (no.): 282
+    cooked snacks purchased (samosa, puri, paratha, momo, roll, chowmein, idli, dosa, vada, chops, pakoras, pav-bhaji, vada-pao, etc.): 283
+    other served processed food: 284
+    served processed food sub-total: 289
+- section: 7.2
+  questionnaire: FDQ
+  desc: "Consumption of packaged processed food in the last 7 days"
+  question: "What is the quantity and value of the packaged processed food consumed by the household in the last 7 days?"
+  items:
+    breakfast cereals (oats, cornflakes, muesli etc.): 012
+    baby food: 161
+    cake, pastry: 290
+    Biscuits: 013
+    chocolates, etc.: 291
+    papad, bhujiya, namkeen, mixture, chanachur: 292
+    chips, nachos, puffs, wafers, etc.: 293
+    pickles: 294
+    sauce, jam, jelly, mayonnaise (gm): 295
+    bread (bakery): 113
+    health supplements (protein powder, probiotic tablet and drinks, chawaprash, etc.): 014
+    noodles (cup noodles, rice noodles, etc.): 015
+    other packaged processed food (poha, other ready to eat meal, etc.): 296
+    packaged processed food sub-total: 299
+- section: 8.1
+  questionnaire: CSQ
+  desc: "Consumption of energy (fuel & light) during the last 30 days"
+  question: "What is the quantity and value of the energy (fuel & light) consumed by the household in the last 30 days?"
+  items:
+    electricity (std. unit): 332
+    LPG (excl. conveyance): 338
+    firewood and chips: 331
+    kerosene – PDS (litre): 334
+    kerosene – other sources (litre): 335
+    other fuel (charcoal, biogas, gobar gas, coal, dung cake, petrol (litre) [excl. conveyance], diesel (litre) [excl. conveyance], other natural gas (CNG, etc.), matches (box), candle (no.), etc.): 096
+    fuel and light sub-total: 349
+- section: 9.1
+  questionnaire: CSQ
+  desc: "Expenditure on toilet articles during the last 30 days"
+  question: "What is the value of toilet articles procured by the household in the last 30 days?"
+  items:
+    toilet soap, body-wash, hand-wash, shower gel, face-wash: 450
+    sanitizer: 016
+    toothpaste, mouthwash, toothbrush, etc.: 451
+    shampoo, conditioner, hair serum/gel, hair cream: 453
+    hair oil, hair colour: 017
+    other hair products, accessories, comb, etc.: 018
+    powder, cream, body lotion, moisturizers: 452
+    other beauty products - lipstick, nail polish, compact & foundation, eye make-up kit (kajal/surma, mascara, shadow, liner, etc.), etc.: 020
+    perfume, body spray, deodorant, roll-ons, etc.: 021
+    sanitary napkins: 456
+    baby products (diapers, lotion, powder, etc.): 022
+    shaving blades, shaving stick, razor: 454
+    shaving cream, shaving foam, aftershave lotion, aftershave balm: 455
+    other toilet articles (body oil, make-up brushes, etc.): 457
+    toilet articles sub-total: 459
+- section: 9.2
+  desc: "Expenditure on other household consumables during the last 30 days"
+  questionnaire: CSQ
+  question: "What is the value of other household consumables procured by the household in the last 30 days?"
+  items:
+    washing soap/soda/powder/liquid detergent: 466
+    other washing requisites: 467
+    floor cleaner, acid, toilet cleaner: 465
+    mosquito repellent, insecticide, anti-rodent, etc.: 471
+    bucket & other plastic goods: 464
+    incense (agarbatti), room freshener: 468
+    flower (fresh) all purposes: 470
+    LED bulb, CFL bulbs: 023
+    other electric bulb, tubelight, decorative lights: 460
+    earthenware, paperware, thermocol plates, etc.: 462
+    electric batteries: 461
+    glassware: 463
+    other petty articles like coir, rope, door mat, non-durable electric goods, etc.: 472
+    other household consumables sub-total: 479
+- section: 10.1
+  questionnaire: CSQ
+  desc: "Expenditure on education during the last 365 days"
+  question: "What is the value of the items/services procured by the household for the purpose of education during the last 365 days?"
+  items:
+    tuition and other fees (school, college, etc.): 405
+    private tutor/ coaching centre: 406
+    books, journals (incl. e-books, audio books) first hand: 400
+    books, journals, etc. second hand: 401
+    stationery, photocopying charges: 404
+    other educational expenses (incl. fees for enrolment in web-based training, library charges, educational CD, etc.): 408
+    education sub-total: 409
+- section: 10.2
+  questionnaire: CSQ
+  desc: "Expenditure on medical (hospitalization) during the last 365 days"
+  question: "What is the value of the items/services procured by the household for the purpose of medical (hospitalization) during the last 365 days?"
+  items:
+    medicine: 410
+    doctor's/surgeon's fee: 412
+    X-ray, ECG, pathological test, etc.: 411
+    hospital & nursing home charges: 413
+    other medical expenses: 414
+    medical - hospitalisation sub-total: 419
+- section: 10.3
+  questionnaire: CSQ
+  desc: "Expenditure on medical (non-hospitalization) during the last 365 days"
+  question: "What is the value of the items/services procured by the household for the purpose of medical (non-hospitalization) during the last 365 days?"
+  items:
+    medicine: 420
+    doctor's/surgeon's fee: 422
+    X-ray, ECG, pathological test, etc.: 421
+    family planning devices: 423
+    other medical expenses: 424
+    medical - non-hospitalisation sub-total: 429
+- section: 11.1
+  questionnaire: CSQ
+  desc: "Expenditure on conveyance during the last 30 days"
+  question: "What is the value of the items/services procured by the household for the purpose of conveyance during the last 30 days?"
+  items:
+    railway fare: 024
+    bus fare for school, college, etc. periodic (lumpsum) payment: 504
+    bus fare for commuting to work. periodic (lumpsum) payment: 025
+    bus /tram fare for school, college daily (miscellaneous) payments: 506
+    bus/tram fare for commuting to work daily (miscellaneous) payments: 505
+    bus/tramfare occasional: 500
+    taxi fare: 508
+    auto-rickshaw/e-rickshaw fare: 501
+    car/bus hired for ceremonial occasion, picnic, etc.: 510
+    steamer, boat fare: 026
+    rickshaw (hand-drawn & cycle) fare: 511
+    air fare: 503
+    petrol for vehicle: 512
+    diesel for vehicle: 513
+    other conveyance expenses: 514
+    conveyance sub-total: 519
+- section: 11.2
+  questionnaire: CSQ
+  desc: "Expenditure on consumer services (excluding conveyance) during the last 30 days"
+  question: "What is the value of the items/services procured by the household for the purpose of consumer services (excluding conveyance) during the last 30 days?"
+  items:
+    telephone charges mobile*(incl. data charges if not separable): 488
+    telephone charges landline* (incl. broadband charges if not separable): 487
+    internet expenses (cable broadband, mobile data charges, etc. if separable): 496
+    water charges*: 540
+    barber, beautician, spas, etc.: 483
+    domestic helper/cook: 480
+    washerman, laundry, ironing, dry cleaning, dyeing of clothes: 484
+    sweeper: 482
+    attendant, babysitter: 481
+    watchmen/security guard, driver: 027
+    tailor: 485
+    grinding/husking charges, etc.: 486
+    priest: 492
+    pet animals (incl. birds, fish): 495
+    repair charges for non-durables (electrician’s charges, plumbing charges, etc.): 494
+    legal expenses: 493
+    postage, couriers, fax & money order: 490
+    other consumer services excluding conveyance (car parking charges, coolie/porter charges, toll charges, miscellaneous expenses, etc.): 497
+    consumer services excluding conveyance sub-total: 499
+- section: 11.3
+  questionnaire: CSQ
+  desc: "Expenditure on entertainment during the last 30 days"
+  question: "What is the value ofitems/services procured by the household for the purpose of entertainment during last 30 days?"
+  items:
+    cable TV/DTH/set top box (incl. broadband charges if not separable): 437
+    cinema, theatre: 430
+    newspapers, periodicals: 402
+    photography: 435
+    club, gym, swimming fees & other subscriptions: 433
+    online media service provider/streaming services: 028
+    other entertainment (mela, fair, picnic, VCD/DVD hire, etc.): 438
+    entertainment sub-total: 439
+- section: 11.4
+  questionnaire: CSQ
+  desc: "Expenditure on rent during the last 30 days and other taxes and cesses during the last 365 days"
+  question: "What is the value of items/services procured by the household or ren tduring the last 30 days and other taxes &cesses during last 365 days?"
+  items:
+    house rent, garage rent (actual): 520
+    hotel lodging charges: 521
+    residential land rent: 522
+    other consumer rent: 523
+    rent sub-total: 529
+    house rent, garage rent (imputed): 539
+    other consumer taxes & cesses: 899
+- section 12.1
+  questionnaire: CSQ
+  desc: "Consumption of pan during the last 7 days"
+  question: "What is the quantity and value of the pan consumed by the household in the last 7 days?"
+  items:
+    pan leaf (no.): 300
+    pan finished (no.): 301
+    ingridients for pan: 302
+    pan sub-total: 309
+- section 12.2
+  questionnaire: CSQ
+  desc: "Consumption of tobacco during the last 7 days"
+  question: "What is the quantity and value of the tobacco consumed by the household in the last 7 days?"
+  items:
+    bidi (no.): 310
+    cigarettes (no.): 311
+    gutka, zarda, kimam, surti (gm): 316
+    leaf tobacco (gm): 312
+    hookah tobacco (gm): 314
+    cheroot (no.): 315
+    snuff (gm): 313
+    other tobacco products: 317
+    tobacco sub-total: 319
+- section 12.3
+  questionnaire: CSQ
+  desc: "Consumption of intoxicants during the last 7 days"
+  question: "What is the quantity and value of the intoxicants consumed by the household in the last 7 days?"
+  items:
+    country liquor (litre): 322
+    foreign/refined liquor or wine (litre): 324
+    beer (litre): 323
+    toddy (litre): 321
+    ganja (gm): 320
+    other intoxicants: 325
+    intoxicants sub-total: 329
+- section: 13.1
+  questionnaire: DGQ
+  desc: "Expenditure for clothing during the last 365 days"
+  question: "What is the quantity and value of the items procured by the household for clothing during the last 365 days?"
+  items:
+    saree (no.): 351
+    cloth for shirt, pyjama, kurta, salwar, etc. (metre): 352
+    cloth for coat, trousers, suit, etc. (metre): 353
+    face mask, gloves: 030
+    T-shirts, polos, tops, shrugs (no.): 363
+    shirts (no.): 031
+    trousers, jeans, jeggings, skirts (no.): 364
+    coat, jacket, blazer, sweater, sweatshirts, windcheater (no.): 354
+    western suit set (no.): 032
+    kurta-pajama suits males (no.): 358
+    kurta-pajama suits females (no.): 360
+    school/college uniform boys: 356
+    school/college uniform girls: 357
+    sherwani, lehnga, gown (no.): 033
+    kurta, kameez, kurti (no.): 361
+    pajamas, salwar, leggings, plazzo (no.): 362
+    dresses, jumpsuits, frocks (no.): 365
+    track suit, track pant, joggers (no.): 034
+    shorts, bermuda, maxis, housecoats, baba suit, nightdress, loungewear, etc.: 368
+    shawl, chaddar (no.): 355
+    blouse, dupatta/stole (no.): 366
+    lungi (no.): 367
+    innerwear, socks, and other hosiery items (no.): 370
+    dhoti (no.): 350
+    gamcha, towel, handkerchief (no.): 371
+    headwear, belts, ties, hat, scarf, muffler, etc. (no.): 373
+    infant clothing: 372
+    clothing (first-hand) other (incl. knitting wool): 374
+    clothing second-hand: 375
+    clothing sub-total: 379
+- section: 13.2
+  questionnaire: DGQ
+  desc: "Expenditure for footwear during the last 365 days"
+  question: "What is the quantity and value of the items procured by the household for footwear during the last 365 days?"
+  items:
+    rubber / PCV footwear: 393
+    leather boots, shoes: 390
+    leather sandals, chappals: 391
+    other leather footwear: 392
+    other footwear: 394
+    footwear second hand: 395
+    footwear sub-total: 399
+- section: 13.3
+  questionnaire: DGQ
+  desc: "Expenditure for bedding during the last 365 days"
+  question: "What is the quantity and value of the items procured by the household for bedding during the last 365 days?"
+  items:
+    bed sheet, bed cover (no.): 380
+    rug, blanket (no.): 381
+    quilt, mattress (no.): 383
+    pillow, cushion (no.): 382
+    mosquito net (no.): 385
+    cloth for upholstery, curtains, tablecloth, etc (metre): 384
+    bedding others: 386
+    bedding sub-total: 389
+- section: 14.1
+  questionnaire: DGQ
+  desc: "Expenditure for purchase (including repair & maintenance) of personal goods for domestic use during the last 365 days"
+  question: "What is the quantity and value of the items procured by the household for personal use during last 365 days?"
+  items:
+    spectacles/goggles, contact lenses: 440
+    umbrella, raincoat, helmet: 441
+    other minor durable-type goods (like torch, lock, lighter, etc.): 442
+    mobile handset: 623
+    telephone instrument (landline): 624
+    PC/Laptop/tablet, other peripherals incl. software: 622
+    clock, watch, smartwatch, fitness tracker: 620
+    back-pack, handbags, vanity bags, purse, clutch, etc.: 554
+    headphone, earphone, ear pod, airpod, bluetooth devices/speakers etc.: 035
+    other machines for household work: 621
+    any other personal goods (power banks, hair dryers, straightener/curler, trimmer, groomer, epilator, etc.): 625
+    other personal goods sub-total: 629
+- section: 14.2
+  questionnaire: DGQ
+  desc: "Expenditure for purchase (including repair & maintenance) of transport equipment for domestic use during the last 365 days"
+  question: "What is the quantity and value of the transport equipment procured by the household for personal use during last 365 days?"
+  items:
+    motorcycle, scooter: 601
+    motor car, jeep: 602
+    bicycle: 600
+    tyres \& tubes: 603
+    other transport equipment: 604
+    personal transport equipment sub-total: 609
+- section: 14.3
+  questionnaire: DGQ
+  desc: "Expenditure for purchase (including repair & maintenance) of sports goods for domestic use during the last 365 days"
+  question: "What is the quantity and value of the sports goods procured by the household for personal use during last 365 days?"
+  items:
+    exercise equipment (treadmill, fitness cycle, etc.): 036
+    weighing machine: 037
+    sportsgoods (badminton racket, shuttle cock, football, cricket bat, etc.) \& toys: 432
+    other sports goods: 097
+    sports goods sub-total: 099
+- section: 14.4
+  questionnaire: DGQ
+  desc: "Expenditure for purchase (including repair & maintenance) of medical equipment for domestic use during the last 365 days"
+  question: "What is the quantity and value of the medical equipment procured by the household for personal use during last 365 days?"
+  items:
+    wheelchair: 040
+    massagers: 041
+    hearing aids \& orthopaedic equipment: 610
+    nebulizer: 042
+    other medical equipment (blood pressure monitoring machine, etc.): 611
+    medical equipment sub-total: 619
+- section: 14.5
+  questionnaire: DGQ
+  desc: "Expenditure for purchase (including repair & maintenance) of cooking and other household appliances for domestic use during the last 365 days"
+  question: "What is the quantity and value of the cooking and other household appliances procured by the household for personal use during last 365 days?"
+  items:
+    electric fan: 580
+    electric air heaters \& blowers: 043
+    air conditioner: 581
+    air cooler: 044
+    air purifier: 045
+    refrigerator/freezers: 588
+    washing machine: 585
+    inverter, generators, stabilizers: 582
+    geysers \& hot water systems, sterilizers: 046
+    stove, gas burner, induction: 586
+    water purifier: 590
+    ventilation system such as exhaust, chimney, etc.: 047
+    mixer/grinder, juicer, food processor: 048
+    pressure cooker/pressure pan: 587
+    electric iron, heater, toaster, micro-oven, electric kettle, vacuum cleaner, \& other electric heating appliances: 591
+    sewing machine: 584
+    lantern, lamp, electric lampshade, emergency light: 583
+    other cooking/household appliances: 592
+    cooking \& other household appliances sub-total: 599
+- section: 14.6
+  questionnaire: DGQ
+  desc: "Expenditure for purchase (including repair & maintenance) of crockery and utensils for domestic use during the last 365 days"
+  question: "What is the quantity and value of the crockery and utensils procured by the household for personal use during last 365 days?"
+  items:
+    stainless steel utensils: 570
+    other metal utensils (non-stick cookware, etc.): 571
+    casseroles, thermos, flask, thermoware: 572
+    water bottle/feeding bottle: 050
+    other crockery \& utensils (jars \& containers, cutlery, dinner set, etc.): 573
+    crockery \& utensils sub-total: 579
+- section: 14.7
+  questionnaire: DGQ
+  desc: "Expenditure for purchase and construction of furniture and fixtures for domestic use during the last 365 days"
+  question: "What is the quantity and value of the furniture and fixtures procured by the household for personal use during last 365 days?"
+  items:
+    bedstead: 550
+    almirah, dressing table: 551
+    chair, stool, bench, table: 552
+    suitcase, trolley bag, duffle bag, trunk, etc.: 553
+    carpet, daree \& other floor mattings: 555
+    paintings, drawings, engravings, etc.: 556
+    other furniture \& fixtures (couch, sofa, etc.): 557
+    furniture \& fixtures sub-total: 559
+- section: 14.8
+  questionnaire: DGQ
+  desc: "Expenditure for purchase (including repair and maintenance) of goos for recreation for domesting use during the last 365 days"
+  question: "What is the quantity and value of the goods procured by the household for recreation during last 365 days?"
+  items:
+    television: 560
+    camera \& photographic equipment: 561
+    CD, DVD, pen-drive, external hard disk: 562
+    musical instruments: 563
+    other goods for recreation (incl. radio, VCR/VCD/DVD player, home theatre system, play station, etc.): 564
+    goods for recreation sub-total: 569
+- section: 14.9
+  questionnaire: DGQ
+  desc: " Expenditure for purchase and construction of residential building, land and other durables for domestic use during the last 365 days"
+  question: "What is the value of the items procured by the household for residential purpose during last 365 days?"
+  items:
+    residential building \& land (cost of minor repairs only): 632
+    bathroom and sanitary equipment: 630
+    plugs, switches \& other electrical fittings: 631
+    other durables: 633
+    residential building, land, and other durables sub-total: 639
+- section: 14.10
+  questionnaire: DGQ
+  desc: "Expenditure for purchase of (including repair and maintenance) of jewelry and ornaments for domestic use during the last 365 days"
+  question: "What is the value of the jewelry and ornaments procured by the household during last 365 days?"
+  items:
+    gold/diamond/platinum jewellery: 640
+    silver jewellery: 641
+    jewels, pearls, precious stones: 642
+    other jewellery and ornaments (artificial jewellery, etc.): 643
+    jewellery \& ornaments sub-total: 649
