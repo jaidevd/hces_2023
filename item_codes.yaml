@@ -3,9 +3,9 @@
   desc: "Consumption of cereals during the last 30 days"
   question: "What is the quantity and value of the cereals and cereals substitutes consumed by the household in the last 30 days?"
   items:
-    rice-free: 061
-    wheat/atta-free: 062
-    coarse grains free: 070
+    rice-free: 61
+    wheat/atta-free: 62
+    coarse grains free: 70
     rice PDS: 101
     rice other sources: 102
     chira: 103
@@ -17,8 +17,23 @@
     suji rawa: 111
     vermicelli sewai: 112
     other wheat products: 114
-    coarse grains PDS: 001
-    coarse grains other sources: 002
+    jowar and its products: 115
+    jowar and its products - PDS: 55
+    jowar and its products - free: 63
+    bajra and its products: 116
+    bajra and its products - free: 64
+    bajra and its products - PDS: 56
+    maize and its products: 117
+    maize and its products - free: 65
+    barley and its products: 118
+    barley and its products - free: 66
+    coarse grains PDS: 1
+    coarse grains other sources: 2
+    small millets and its products: 120
+    small millets and its products - free: 68
+    ragi and its products: 121
+    ragi and its products - free: 67
+    ragi and its products - PDS: 59
     other cereals products: 122
     cereal sub-total: 129
     cereal substitutes (tapiocal, etc): 139
@@ -36,18 +51,18 @@
     peas, chickpeas: 146
     other pulses (khesari, etc.): 148
     besan, gram products: 150
-    pulses - PDS: 158
+    "pulses - PDS": 158
     other pulse products (soya chunks, etc.): 152
-    pulses - free: 071
-    gram - free: 072
+    pulses - free: 71
+    gram - free: 72
     pulses & pulse products - sub-total: 159
 - section: 5.3
   desc: "Consumption of sugar and salt in the last 30 days"
   questionnaire: FDQ
   question: "What is the quantity and value of the sugar and salt consumed by the household in the last 30 days?"
   items:
-    salt - free: 073
-    sugar - free: 074
+    salt - free: 73
+    sugar - free: 74
     salt - PDS: 178
     salt - other sources: 170
     sugar - PDS: 171
@@ -67,10 +82,13 @@
     curd, yogurt: 163
     butter: 165
     ice-cream: 166
-    paneer: 003
-    prepared sweets: 004
-    cheese (gm): 005
-    other milk products (lassi, butter milk, others): 092
+    paneer: 3
+    prepared sweets: 4
+    cheese (gm): 5
+    other milk products (lassi, butter milk, others): 92
+    other milk products: 167
+    lassi: 6
+    butter milk: 7
     milk & milk products - sub-total: 169
 - section: 6.2
   desc: "Consumption of vegetables in the last 7 days"
@@ -109,22 +127,32 @@
     guava: 226
     papaya: 230
     orange, sweet lime(mausami) (no.): 228
+    jackfruit: 221
     watermelon: 222
+    singara: 227
+    pineapple: 223
     kharbooza: 232
-    other fresh fruits (litchi, pears/nashpati, singara, jackfruit, berries, pineapple, others): 093
+    pears / nashpati: 233
+    berries: 234
+    litchi: 235
+    other fresh fruits (litchi, pears/nashpati, singara, jackfruit, berries, pineapple, others): 93
+    other fresh fruits: 238
     fruits (fresh) sub-total: 239
 - section: 6.4
   questionnaire: FDQ
   desc: "Consumption of dry fruits in the last 7 days"
   question: "What is the quantity and value of the dry fruits consumed by the household in the last 7 days?"
   items:
+    apricot: 8
+    dry fig (anjeer): 10
     coconut - copra: 240
     groundnut: 241
     cashew nut: 243
     dates: 242
     other nuts (almond, pistachio, walnut, hazelnut, etc.): 245
     raisin (kishmish), monacca, etc.: 246
-    other dry fruits (apricot, dry fig, anjeer, others): 094
+    other dry fruits (apricot, dry fig, anjeer, others): 94
+    other dry fruits: 247
     fruits (dry) sub-total: 249
 - section: 6.5
   questionnaire: FDQ
@@ -144,13 +172,15 @@
   desc: "Consumption of edible oil in the last 7 days"
   question: "What is the quantity and value of the edible oil consumed by the household in the last 7 days?"
   items:
+    vanaspati, margarine: 180
     mustard oil: 181
-    refined oil [sunflower, soyabean, palm oil, vegetable oil, etc.]: 184
+    "refined oil [sunflower, soyabean, palm oil, vegetable oil, etc.]": 184
     groundnut oil: 182
     coconut oil: 183
-    edible oil - PDS: 188
-    edible oil others (vanaspati, margarine, others): 095
-    edible oil - free: 075
+    "edible oil - PDS": 188
+    "edible oil others (vanaspati, margarine, others)": 95
+    "edible oil - others": 185
+    "edible oil - free": 75
     edible oil sub-total: 189
 - section: 6.7
   questionnaire: FDQ
@@ -180,7 +210,7 @@
     coffee cups (no.): 272
     coffee powder (gm): 273
     mineral water (litre): 274
-    soda drinks (litre): 011
+    soda drinks (litre): 11
     other cold beverages bottled/canned (litre): 275
     fruit juice and shake, sugarcane/ date-palm juice, etc.: 276
     other beverages cocoa, drinking chocolate, health drinks, etc.: 278
@@ -190,7 +220,7 @@
   desc: "Consumption of served processed food in the last 7 days"
   question: "What is the quantity and value of the served processed food purchased and/or consumed by the household in the last 7 days?"
   items:
-    cooked meals purchased at subsidized rate (no.): 076
+    cooked meals purchased at subsidized rate (no.): 76
     cooked meals purchased (no.): 280
     cooked meals received free in workplace (no.): 281
     cooked meals received as assistance (no.): 282
@@ -202,18 +232,18 @@
   desc: "Consumption of packaged processed food in the last 7 days"
   question: "What is the quantity and value of the packaged processed food consumed by the household in the last 7 days?"
   items:
-    breakfast cereals (oats, cornflakes, muesli etc.): 012
+    breakfast cereals (oats, cornflakes, muesli etc.): 12
     baby food: 161
     cake, pastry: 290
-    Biscuits: 013
+    Biscuits: 13
     chocolates, etc.: 291
     papad, bhujiya, namkeen, mixture, chanachur: 292
     chips, nachos, puffs, wafers, etc.: 293
     pickles: 294
     sauce, jam, jelly, mayonnaise (gm): 295
     bread (bakery): 113
-    health supplements (protein powder, probiotic tablet and drinks, chawaprash, etc.): 014
-    noodles (cup noodles, rice noodles, etc.): 015
+    health supplements (protein powder, probiotic tablet and drinks, chawaprash, etc.): 14
+    noodles (cup noodles, rice noodles, etc.): 15
     other packaged processed food (poha, other ready to eat meal, etc.): 296
     packaged processed food sub-total: 299
 - section: 8.1
@@ -226,7 +256,17 @@
     firewood and chips: 331
     kerosene – PDS (litre): 334
     kerosene – other sources (litre): 335
-    other fuel (charcoal, biogas, gobar gas, coal, dung cake, petrol (litre) [excl. conveyance], diesel (litre) [excl. conveyance], other natural gas (CNG, etc.), matches (box), candle (no.), etc.): 096
+    "other fuel (charcoal, biogas, gobar gas, coal, dung cake, petrol (litre) [excl. conveyance], diesel (litre) [excl. conveyance], other natural gas (CNG, etc.), matches (box), candle (no.), etc.)": 96
+    dung cake: 333
+    "matches (box)": 336
+    coal: 337
+    "other natural gas (CNG, etc)": 340
+    charcoal: 341
+    candles: 342
+    "biogas, gobar gas": 343
+    "petrol (litres, excluding conveyance)": 344
+    "diesel (litres, excluding conveyance)": 345
+    "fuel - others": 346
     fuel and light sub-total: 349
 - section: 9.1
   questionnaire: CSQ
@@ -234,16 +274,16 @@
   question: "What is the value of toilet articles procured by the household in the last 30 days?"
   items:
     toilet soap, body-wash, hand-wash, shower gel, face-wash: 450
-    sanitizer: 016
+    sanitizer: 16
     toothpaste, mouthwash, toothbrush, etc.: 451
     shampoo, conditioner, hair serum/gel, hair cream: 453
-    hair oil, hair colour: 017
-    other hair products, accessories, comb, etc.: 018
+    hair oil, hair colour: 17
+    other hair products, accessories, comb, etc.: 18
     powder, cream, body lotion, moisturizers: 452
-    other beauty products - lipstick, nail polish, compact & foundation, eye make-up kit (kajal/surma, mascara, shadow, liner, etc.), etc.: 020
-    perfume, body spray, deodorant, roll-ons, etc.: 021
+    "other beauty products - lipstick, nail polish, compact & foundation, eye make-up kit (kajal/surma, mascara, shadow, liner, etc.), etc.": 20
+    perfume, body spray, deodorant, roll-ons, etc.: 21
     sanitary napkins: 456
-    baby products (diapers, lotion, powder, etc.): 022
+    baby products (diapers, lotion, powder, etc.): 22
     shaving blades, shaving stick, razor: 454
     shaving cream, shaving foam, aftershave lotion, aftershave balm: 455
     other toilet articles (body oil, make-up brushes, etc.): 457
@@ -257,10 +297,10 @@
     other washing requisites: 467
     floor cleaner, acid, toilet cleaner: 465
     mosquito repellent, insecticide, anti-rodent, etc.: 471
-    bucket & other plastic goods: 464
+    "bucket & other plastic goods": 464
     incense (agarbatti), room freshener: 468
     flower (fresh) all purposes: 470
-    LED bulb, CFL bulbs: 023
+    LED bulb, CFL bulbs: 23
     other electric bulb, tubelight, decorative lights: 460
     earthenware, paperware, thermocol plates, etc.: 462
     electric batteries: 461
@@ -287,9 +327,9 @@
     medicine: 410
     doctor's/surgeon's fee: 412
     X-ray, ECG, pathological test, etc.: 411
-    hospital & nursing home charges: 413
+    "hospital & nursing home charges": 413
     other medical expenses: 414
-    medical - hospitalisation sub-total: 419
+    "medical - hospitalisation sub-total": 419
 - section: 10.3
   questionnaire: CSQ
   desc: "Expenditure on medical (non-hospitalization) during the last 365 days"
@@ -300,23 +340,23 @@
     X-ray, ECG, pathological test, etc.: 421
     family planning devices: 423
     other medical expenses: 424
-    medical - non-hospitalisation sub-total: 429
+    "medical - non-hospitalisation sub-total": 429
 - section: 11.1
   questionnaire: CSQ
   desc: "Expenditure on conveyance during the last 30 days"
   question: "What is the value of the items/services procured by the household for the purpose of conveyance during the last 30 days?"
   items:
-    railway fare: 024
+    railway fare: 24
     bus fare for school, college, etc. periodic (lumpsum) payment: 504
-    bus fare for commuting to work. periodic (lumpsum) payment: 025
+    bus fare for commuting to work. periodic (lumpsum) payment: 25
     bus /tram fare for school, college daily (miscellaneous) payments: 506
     bus/tram fare for commuting to work daily (miscellaneous) payments: 505
     bus/tramfare occasional: 500
     taxi fare: 508
     auto-rickshaw/e-rickshaw fare: 501
     car/bus hired for ceremonial occasion, picnic, etc.: 510
-    steamer, boat fare: 026
-    rickshaw (hand-drawn & cycle) fare: 511
+    steamer, boat fare: 26
+    "rickshaw (hand-drawn & cycle) fare": 511
     air fare: 503
     petrol for vehicle: 512
     diesel for vehicle: 513
@@ -336,14 +376,14 @@
     washerman, laundry, ironing, dry cleaning, dyeing of clothes: 484
     sweeper: 482
     attendant, babysitter: 481
-    watchmen/security guard, driver: 027
+    watchmen/security guard, driver: 27
     tailor: 485
     grinding/husking charges, etc.: 486
     priest: 492
     pet animals (incl. birds, fish): 495
     repair charges for non-durables (electrician’s charges, plumbing charges, etc.): 494
     legal expenses: 493
-    postage, couriers, fax & money order: 490
+    "postage, couriers, fax & money order": 490
     other consumer services excluding conveyance (car parking charges, coolie/porter charges, toll charges, miscellaneous expenses, etc.): 497
     consumer services excluding conveyance sub-total: 499
 - section: 11.3
@@ -355,8 +395,8 @@
     cinema, theatre: 430
     newspapers, periodicals: 402
     photography: 435
-    club, gym, swimming fees & other subscriptions: 433
-    online media service provider/streaming services: 028
+    "club, gym, swimming fees & other subscriptions": 433
+    online media service provider/streaming services: 28
     other entertainment (mela, fair, picnic, VCD/DVD hire, etc.): 438
     entertainment sub-total: 439
 - section: 11.4
@@ -370,8 +410,8 @@
     other consumer rent: 523
     rent sub-total: 529
     house rent, garage rent (imputed): 539
-    other consumer taxes & cesses: 899
-- section 12.1
+    "other consumer taxes & cesses": 899
+- section: 12.1
   questionnaire: CSQ
   desc: "Consumption of pan during the last 7 days"
   question: "What is the quantity and value of the pan consumed by the household in the last 7 days?"
@@ -380,7 +420,7 @@
     pan finished (no.): 301
     ingridients for pan: 302
     pan sub-total: 309
-- section 12.2
+- section: 12.2
   questionnaire: CSQ
   desc: "Consumption of tobacco during the last 7 days"
   question: "What is the quantity and value of the tobacco consumed by the household in the last 7 days?"
@@ -394,7 +434,7 @@
     snuff (gm): 313
     other tobacco products: 317
     tobacco sub-total: 319
-- section 12.3
+- section: 12.3
   questionnaire: CSQ
   desc: "Consumption of intoxicants during the last 7 days"
   question: "What is the quantity and value of the intoxicants consumed by the household in the last 7 days?"
@@ -414,21 +454,21 @@
     saree (no.): 351
     cloth for shirt, pyjama, kurta, salwar, etc. (metre): 352
     cloth for coat, trousers, suit, etc. (metre): 353
-    face mask, gloves: 030
+    face mask, gloves: 30
     T-shirts, polos, tops, shrugs (no.): 363
-    shirts (no.): 031
+    shirts (no.): 31
     trousers, jeans, jeggings, skirts (no.): 364
     coat, jacket, blazer, sweater, sweatshirts, windcheater (no.): 354
-    western suit set (no.): 032
+    western suit set (no.): 32
     kurta-pajama suits males (no.): 358
     kurta-pajama suits females (no.): 360
     school/college uniform boys: 356
     school/college uniform girls: 357
-    sherwani, lehnga, gown (no.): 033
+    sherwani, lehnga, gown (no.): 33
     kurta, kameez, kurti (no.): 361
     pajamas, salwar, leggings, plazzo (no.): 362
     dresses, jumpsuits, frocks (no.): 365
-    track suit, track pant, joggers (no.): 034
+    track suit, track pant, joggers (no.): 34
     shorts, bermuda, maxis, housecoats, baba suit, nightdress, loungewear, etc.: 368
     shawl, chaddar (no.): 355
     blouse, dupatta/stole (no.): 366
@@ -479,7 +519,7 @@
     PC/Laptop/tablet, other peripherals incl. software: 622
     clock, watch, smartwatch, fitness tracker: 620
     back-pack, handbags, vanity bags, purse, clutch, etc.: 554
-    headphone, earphone, ear pod, airpod, bluetooth devices/speakers etc.: 035
+    headphone, earphone, ear pod, airpod, bluetooth devices/speakers etc.: 35
     other machines for household work: 621
     any other personal goods (power banks, hair dryers, straightener/curler, trimmer, groomer, epilator, etc.): 625
     other personal goods sub-total: 629
@@ -499,20 +539,20 @@
   desc: "Expenditure for purchase (including repair & maintenance) of sports goods for domestic use during the last 365 days"
   question: "What is the quantity and value of the sports goods procured by the household for personal use during last 365 days?"
   items:
-    exercise equipment (treadmill, fitness cycle, etc.): 036
-    weighing machine: 037
+    exercise equipment (treadmill, fitness cycle, etc.): 36
+    weighing machine: 37
     sportsgoods (badminton racket, shuttle cock, football, cricket bat, etc.) \& toys: 432
-    other sports goods: 097
-    sports goods sub-total: 099
+    other sports goods: 97
+    sports goods sub-total: 99
 - section: 14.4
   questionnaire: DGQ
   desc: "Expenditure for purchase (including repair & maintenance) of medical equipment for domestic use during the last 365 days"
   question: "What is the quantity and value of the medical equipment procured by the household for personal use during last 365 days?"
   items:
-    wheelchair: 040
-    massagers: 041
+    wheelchair: 40
+    massagers: 41
     hearing aids \& orthopaedic equipment: 610
-    nebulizer: 042
+    nebulizer: 42
     other medical equipment (blood pressure monitoring machine, etc.): 611
     medical equipment sub-total: 619
 - section: 14.5
@@ -521,18 +561,18 @@
   question: "What is the quantity and value of the cooking and other household appliances procured by the household for personal use during last 365 days?"
   items:
     electric fan: 580
-    electric air heaters \& blowers: 043
+    electric air heaters \& blowers: 43
     air conditioner: 581
-    air cooler: 044
-    air purifier: 045
+    air cooler: 44
+    air purifier: 45
     refrigerator/freezers: 588
     washing machine: 585
     inverter, generators, stabilizers: 582
-    geysers \& hot water systems, sterilizers: 046
+    geysers \& hot water systems, sterilizers: 46
     stove, gas burner, induction: 586
     water purifier: 590
-    ventilation system such as exhaust, chimney, etc.: 047
-    mixer/grinder, juicer, food processor: 048
+    ventilation system such as exhaust, chimney, etc.: 47
+    mixer/grinder, juicer, food processor: 48
     pressure cooker/pressure pan: 587
     electric iron, heater, toaster, micro-oven, electric kettle, vacuum cleaner, \& other electric heating appliances: 591
     sewing machine: 584
@@ -547,7 +587,7 @@
     stainless steel utensils: 570
     other metal utensils (non-stick cookware, etc.): 571
     casseroles, thermos, flask, thermoware: 572
-    water bottle/feeding bottle: 050
+    water bottle/feeding bottle: 50
     other crockery \& utensils (jars \& containers, cutlery, dinner set, etc.): 573
     crockery \& utensils sub-total: 579
 - section: 14.7
